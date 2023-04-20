@@ -1,5 +1,6 @@
-package org.example.cme;
+package dasexp;
 
+import java.util.Arrays;
 import java.util.ConcurrentModificationException;
 import java.util.Iterator;
 import java.util.Map;
@@ -24,6 +25,12 @@ public class Das_Experiment {
             System.out.println(it.next());
             map.put(3,3);
             System.out.println(it.next());
+            System.out.println("SUM IS = " + Arrays.stream(map
+                    .values()
+                    .toArray())
+                .mapToInt(o -> Integer.parseInt(String.valueOf(o)))
+                .sum());
+
         } catch (ConcurrentModificationException e) {
             e.printStackTrace();
         }
