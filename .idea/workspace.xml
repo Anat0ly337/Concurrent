@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72f4b8ef-8881-403d-b3e1-3e05a539f0fe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/deadlocks/DeadLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pool/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pool/BlockingQueuePool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pool/Pool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cme/CustomSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dasexp/CustomSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cme/Das_Experiment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dasexp/Das_Experiment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cme/ThreadSafeMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dasexp/ThreadSafeMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/deadlocks/DeadLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/deadlocks/DeadLock.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -49,7 +49,20 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DeadLock">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pool.App" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Das_Experiment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dasexp.Das_Experiment" />
       <module name="untitled" />
@@ -121,6 +134,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.App" />
       <item itemvalue="Application.Das_Experiment" />
       <item itemvalue="Application.DeadLock" />
       <item itemvalue="Application.DeadLocks" />
@@ -128,6 +142,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.DeadLock" />
         <item itemvalue="Application.DeadLocks" />
         <item itemvalue="Application.NetworkDriver" />
