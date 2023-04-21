@@ -27,10 +27,8 @@ public class DeadLock {
 
             while (count < 100) {
                 lock.lock();
-                if (count2 +10 < count) {
                     condition.signal();
                     lock.unlock();
-                }
                 int cnt = count++;
                 list.add(cnt);
                 System.out.println("Count = " + cnt);
