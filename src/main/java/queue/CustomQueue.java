@@ -6,8 +6,6 @@ import java.util.Iterator;
 import java.util.Queue;
 
 public class CustomQueue<T> implements Queue<T> {
-
-    static Object lock = new Object();
     private Object[] elements;
 
     private int count = 0;
